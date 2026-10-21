@@ -2,6 +2,8 @@
 
 A Forge mod for **Minecraft 1.21.1** that adds a hand-modeled gold-and-silver lightsaber with a blazing magenta plasma blade.
 
+![Magenta Lightsaber](preview.png)
+
 ## Features
 
 - Detailed 3D hilt with gold, silver, dark grip and a magenta kyber crystal ring.

@@ -205,16 +205,15 @@ def render(model_name: str, yaw_deg: float, pitch_deg: float, target_height_px: 
 
 
 def main():
-    a = render("lightsaber", 0, 0, 300, "OFF - front")
-    b = render("lightsaber_on", 0, 0, 300, "ON - front")
-    c = render("lightsaber_on", 38, 12, 340, "ON - 3/4 view")
-    d = render("lightsaber", 38, 12, 200, "OFF - 3/4 view")
+    a = render("lightsaber", 0, 0, 160, "OFF")
+    b = render("lightsaber_on", 0, 0, 300, "ON")
+    c = render("lightsaber_on", 38, 12, 300, "ON - 3/4")
 
-    w = a.width + b.width + c.width + 20
+    w = a.width + b.width + c.width + 40
     h = max(a.height, b.height, c.height) + 20
     sheet = Image.new("RGBA", (w, h), (8, 6, 12, 255))
     x = 10
-    for im in (a, b, c, d):
+    for im in (a, b, c):
         sheet.alpha_composite(im, (x, 10))
         x += im.width + 10
     sheet.save(OUT)
