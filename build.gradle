@@ -97,3 +97,10 @@ tasks.withType(JavaCompile).configureEach {
 }
 
 idea.module { downloadJavadoc = downloadSources = true }
+
+// Merge resources and classes so Forge's dev run can discover the mod correctly.
+sourceSets.each {
+    def dir = layout.buildDirectory.dir("sourcesSets/$it.name")
+    it.output.resourcesDir = dir
+    it.java.destinationDirectory = dir
+}
