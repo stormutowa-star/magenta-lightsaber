@@ -43,5 +43,19 @@ jobs:
         if: startsWith(github.ref, 'refs/tags/')
         uses: softprops/action-gh-release@v2
         with:
+          name: Magenta Lightsaber ${{ github.ref_name }}
+          body: |
+            Sable de luz para **Minecraft 1.21.1 + Forge 52.x**.
+
+            ### Uso
+            - **Click derecho** para encender o apagar la hoja magenta.
+            - Espada potente cuando está encendida: +8 de daño y velocidad de espada.
+            - Partículas y sonido al encender.
+
+            ### Receta
+            2 lingotes de oro, 3 lingotes de hierro, 1 lingote de netherite y 1 tinte magenta.
+
+            ### Instalación
+            Coloca el jar en `.minecraft/mods` con Forge 1.21.1 y Java 21.
           files: build/libs/*.jar
           generate_release_notes: true
