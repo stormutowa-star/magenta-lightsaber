@@ -1,0 +1,8 @@
+{
+  "item.magenta_lightsaber.lightsaber": "Sable de luz magenta",
+  "itemGroup.magenta_lightsaber": "Sable de luz magenta",
+  "tooltip.magenta_lightsaber.state": "Hoja: %s",
+  "tooltip.magenta_lightsaber.on": "Encendida",
+  "tooltip.magenta_lightsaber.off": "Apagada",
+  "tooltip.magenta_lightsaber.hint": "Click derecho para encender o apagar"
+}

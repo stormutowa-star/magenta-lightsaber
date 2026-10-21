@@ -1,0 +1,8 @@
+{
+  "item.magenta_lightsaber.lightsaber": "Magenta Lightsaber",
+  "itemGroup.magenta_lightsaber": "Magenta Lightsaber",
+  "tooltip.magenta_lightsaber.state": "Blade: %s",
+  "tooltip.magenta_lightsaber.on": "Ignited",
+  "tooltip.magenta_lightsaber.off": "Retracted",
+  "tooltip.magenta_lightsaber.hint": "Right-click to ignite or retract"
+}

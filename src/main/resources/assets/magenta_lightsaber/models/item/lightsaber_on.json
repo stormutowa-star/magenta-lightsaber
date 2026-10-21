@@ -1,0 +1,2181 @@
+{
+  "parent": "minecraft:item/handheld",
+  "gui_light": "front",
+  "textures": {
+    "particle": "magenta_lightsaber:item/blade",
+    "hilt": "magenta_lightsaber:item/hilt",
+    "blade": "magenta_lightsaber:item/blade",
+    "glow": "magenta_lightsaber:item/blade_glow",
+    "aura": "magenta_lightsaber:item/blade_glow_outer"
+  },
+  "elements": [
+    {
+      "name": "pommel_cap",
+      "from": [
+        -2.4,
+        0.0,
+        -2.4
+      ],
+      "to": [
+        2.4,
+        1.0,
+        2.4
+      ],
+      "faces": {
+        "down": {
+          "texture": "#hilt",
+          "uv": [
+            0.0,
+            0.0,
+            8.0,
+            8.0
+          ]
+        },
+        "up": {
+          "texture": "#hilt",
+          "uv": [
+            0.0,
+            0.0,
+            8.0,
+            8.0
+          ]
+        },
+        "north": {
+          "texture": "#hilt",
+          "uv": [
+            0.0,
+            0.0,
+            8.0,
+            8.0
+          ]
+        },
+        "south": {
+          "texture": "#hilt",
+          "uv": [
+            0.0,
+            0.0,
+            8.0,
+            8.0
+          ]
+        },
+        "west": {
+          "texture": "#hilt",
+          "uv": [
+            0.0,
+            0.0,
+            8.0,
+            8.0
+          ]
+        },
+        "east": {
+          "texture": "#hilt",
+          "uv": [
+            0.0,
+            0.0,
+            8.0,
+            8.0
+          ]
+        }
+      },
+      "shade": true
+    },
+    {
+      "name": "pommel_inset",
+      "from": [
+        -1.5,
+        -0.2,
+        -1.5
+      ],
+      "to": [
+        1.5,
+        0.35,
+        1.5
+      ],
+      "faces": {
+        "down": {
+          "texture": "#hilt",
+          "uv": [
+            0.0,
+            8.0,
+            8.0,
+            16.0
+          ]
+        },
+        "up": {
+          "texture": "#hilt",
+          "uv": [
+            0.0,
+            8.0,
+            8.0,
+            16.0
+          ]
+        },
+        "north": {
+          "texture": "#hilt",
+          "uv": [
+            0.0,
+            8.0,
+            8.0,
+            16.0
+          ]
+        },
+        "south": {
+          "texture": "#hilt",
+          "uv": [
+            0.0,
+            8.0,
+            8.0,
+            16.0
+          ]
+        },
+        "west": {
+          "texture": "#hilt",
+          "uv": [
+            0.0,
+            8.0,
+            8.0,
+            16.0
+          ]
+        },
+        "east": {
+          "texture": "#hilt",
+          "uv": [
+            0.0,
+            8.0,
+            8.0,
+            16.0
+          ]
+        }
+      },
+      "shade": true
+    },
+    {
+      "name": "pommel_ring",
+      "from": [
+        -2.1,
+        0.98,
+        -2.1
+      ],
+      "to": [
+        2.1,
+        1.72,
+        2.1
+      ],
+      "faces": {
+        "down": {
+          "texture": "#hilt",
+          "uv": [
+            8.0,
+            0.0,
+            16.0,
+            8.0
+          ]
+        },
+        "up": {
+          "texture": "#hilt",
+          "uv": [
+            8.0,
+            0.0,
+            16.0,
+            8.0
+          ]
+        },
+        "north": {
+          "texture": "#hilt",
+          "uv": [
+            8.0,
+            0.0,
+            16.0,
+            8.0
+          ]
+        },
+        "south": {
+          "texture": "#hilt",
+          "uv": [
+            8.0,
+            0.0,
+            16.0,
+            8.0
+          ]
+        },
+        "west": {
+          "texture": "#hilt",
+          "uv": [
+            8.0,
+            0.0,
+            16.0,
+            8.0
+          ]
+        },
+        "east": {
+          "texture": "#hilt",
+          "uv": [
+            8.0,
+            0.0,
+            16.0,
+            8.0
+          ]
+        }
+      },
+      "shade": true
+    },
+    {
+      "name": "grip",
+      "from": [
+        -1.65,
+        1.68,
+        -1.65
+      ],
+      "to": [
+        1.65,
+        4.22,
+        1.65
+      ],
+      "faces": {
+        "down": {
+          "texture": "#hilt",
+          "uv": [
+            0.0,
+            8.0,
+            8.0,
+            16.0
+          ]
+        },
+        "up": {
+          "texture": "#hilt",
+          "uv": [
+            0.0,
+            8.0,
+            8.0,
+            16.0
+          ]
+        },
+        "north": {
+          "texture": "#hilt",
+          "uv": [
+            0.0,
+            8.0,
+            8.0,
+            16.0
+          ]
+        },
+        "south": {
+          "texture": "#hilt",
+          "uv": [
+            0.0,
+            8.0,
+            8.0,
+            16.0
+          ]
+        },
+        "west": {
+          "texture": "#hilt",
+          "uv": [
+            0.0,
+            8.0,
+            8.0,
+            16.0
+          ]
+        },
+        "east": {
+          "texture": "#hilt",
+          "uv": [
+            0.0,
+            8.0,
+            8.0,
+            16.0
+          ]
+        }
+      },
+      "shade": true
+    },
+    {
+      "name": "grip_inlay_n",
+      "from": [
+        -0.24,
+        1.95,
+        1.6
+      ],
+      "to": [
+        0.24,
+        4.12,
+        1.76
+      ],
+      "faces": {
+        "down": {
+          "texture": "#hilt",
+          "uv": [
+            0.0,
+            0.0,
+            8.0,
+            8.0
+          ]
+        },
+        "up": {
+          "texture": "#hilt",
+          "uv": [
+            0.0,
+            0.0,
+            8.0,
+            8.0
+          ]
+        },
+        "north": {
+          "texture": "#hilt",
+          "uv": [
+            0.0,
+            0.0,
+            8.0,
+            8.0
+          ]
+        },
+        "south": {
+          "texture": "#hilt",
+          "uv": [
+            0.0,
+            0.0,
+            8.0,
+            8.0
+          ]
+        },
+        "west": {
+          "texture": "#hilt",
+          "uv": [
+            0.0,
+            0.0,
+            8.0,
+            8.0
+          ]
+        },
+        "east": {
+          "texture": "#hilt",
+          "uv": [
+            0.0,
+            0.0,
+            8.0,
+            8.0
+          ]
+        }
+      },
+      "shade": true
+    },
+    {
+      "name": "grip_inlay_s",
+      "from": [
+        -0.24,
+        1.95,
+        -1.76
+      ],
+      "to": [
+        0.24,
+        4.12,
+        -1.6
+      ],
+      "faces": {
+        "down": {
+          "texture": "#hilt",
+          "uv": [
+            0.0,
+            0.0,
+            8.0,
+            8.0
+          ]
+        },
+        "up": {
+          "texture": "#hilt",
+          "uv": [
+            0.0,
+            0.0,
+            8.0,
+            8.0
+          ]
+        },
+        "north": {
+          "texture": "#hilt",
+          "uv": [
+            0.0,
+            0.0,
+            8.0,
+            8.0
+          ]
+        },
+        "south": {
+          "texture": "#hilt",
+          "uv": [
+            0.0,
+            0.0,
+            8.0,
+            8.0
+          ]
+        },
+        "west": {
+          "texture": "#hilt",
+          "uv": [
+            0.0,
+            0.0,
+            8.0,
+            8.0
+          ]
+        },
+        "east": {
+          "texture": "#hilt",
+          "uv": [
+            0.0,
+            0.0,
+            8.0,
+            8.0
+          ]
+        }
+      },
+      "shade": true
+    },
+    {
+      "name": "grip_inlay_w",
+      "from": [
+        -1.76,
+        1.95,
+        -0.24
+      ],
+      "to": [
+        -1.6,
+        4.12,
+        0.24
+      ],
+      "faces": {
+        "down": {
+          "texture": "#hilt",
+          "uv": [
+            0.0,
+            0.0,
+            8.0,
+            8.0
+          ]
+        },
+        "up": {
+          "texture": "#hilt",
+          "uv": [
+            0.0,
+            0.0,
+            8.0,
+            8.0
+          ]
+        },
+        "north": {
+          "texture": "#hilt",
+          "uv": [
+            0.0,
+            0.0,
+            8.0,
+            8.0
+          ]
+        },
+        "south": {
+          "texture": "#hilt",
+          "uv": [
+            0.0,
+            0.0,
+            8.0,
+            8.0
+          ]
+        },
+        "west": {
+          "texture": "#hilt",
+          "uv": [
+            0.0,
+            0.0,
+            8.0,
+            8.0
+          ]
+        },
+        "east": {
+          "texture": "#hilt",
+          "uv": [
+            0.0,
+            0.0,
+            8.0,
+            8.0
+          ]
+        }
+      },
+      "shade": true
+    },
+    {
+      "name": "grip_inlay_e",
+      "from": [
+        1.6,
+        1.95,
+        -0.24
+      ],
+      "to": [
+        1.76,
+        4.12,
+        0.24
+      ],
+      "faces": {
+        "down": {
+          "texture": "#hilt",
+          "uv": [
+            0.0,
+            0.0,
+            8.0,
+            8.0
+          ]
+        },
+        "up": {
+          "texture": "#hilt",
+          "uv": [
+            0.0,
+            0.0,
+            8.0,
+            8.0
+          ]
+        },
+        "north": {
+          "texture": "#hilt",
+          "uv": [
+            0.0,
+            0.0,
+            8.0,
+            8.0
+          ]
+        },
+        "south": {
+          "texture": "#hilt",
+          "uv": [
+            0.0,
+            0.0,
+            8.0,
+            8.0
+          ]
+        },
+        "west": {
+          "texture": "#hilt",
+          "uv": [
+            0.0,
+            0.0,
+            8.0,
+            8.0
+          ]
+        },
+        "east": {
+          "texture": "#hilt",
+          "uv": [
+            0.0,
+            0.0,
+            8.0,
+            8.0
+          ]
+        }
+      },
+      "shade": true
+    },
+    {
+      "name": "gold_band_low",
+      "from": [
+        -2.05,
+        2.65,
+        -2.05
+      ],
+      "to": [
+        2.05,
+        2.95,
+        2.05
+      ],
+      "faces": {
+        "down": {
+          "texture": "#hilt",
+          "uv": [
+            0.0,
+            0.0,
+            8.0,
+            8.0
+          ]
+        },
+        "up": {
+          "texture": "#hilt",
+          "uv": [
+            0.0,
+            0.0,
+            8.0,
+            8.0
+          ]
+        },
+        "north": {
+          "texture": "#hilt",
+          "uv": [
+            0.0,
+            0.0,
+            8.0,
+            8.0
+          ]
+        },
+        "south": {
+          "texture": "#hilt",
+          "uv": [
+            0.0,
+            0.0,
+            8.0,
+            8.0
+          ]
+        },
+        "west": {
+          "texture": "#hilt",
+          "uv": [
+            0.0,
+            0.0,
+            8.0,
+            8.0
+          ]
+        },
+        "east": {
+          "texture": "#hilt",
+          "uv": [
+            0.0,
+            0.0,
+            8.0,
+            8.0
+          ]
+        }
+      },
+      "shade": true
+    },
+    {
+      "name": "gold_band_mid",
+      "from": [
+        -2.05,
+        4.18,
+        -2.05
+      ],
+      "to": [
+        2.05,
+        4.52,
+        2.05
+      ],
+      "faces": {
+        "down": {
+          "texture": "#hilt",
+          "uv": [
+            0.0,
+            0.0,
+            8.0,
+            8.0
+          ]
+        },
+        "up": {
+          "texture": "#hilt",
+          "uv": [
+            0.0,
+            0.0,
+            8.0,
+            8.0
+          ]
+        },
+        "north": {
+          "texture": "#hilt",
+          "uv": [
+            0.0,
+            0.0,
+            8.0,
+            8.0
+          ]
+        },
+        "south": {
+          "texture": "#hilt",
+          "uv": [
+            0.0,
+            0.0,
+            8.0,
+            8.0
+          ]
+        },
+        "west": {
+          "texture": "#hilt",
+          "uv": [
+            0.0,
+            0.0,
+            8.0,
+            8.0
+          ]
+        },
+        "east": {
+          "texture": "#hilt",
+          "uv": [
+            0.0,
+            0.0,
+            8.0,
+            8.0
+          ]
+        }
+      },
+      "shade": true
+    },
+    {
+      "name": "silver_band_low",
+      "from": [
+        -2.1,
+        4.48,
+        -2.1
+      ],
+      "to": [
+        2.1,
+        5.02,
+        2.1
+      ],
+      "faces": {
+        "down": {
+          "texture": "#hilt",
+          "uv": [
+            8.0,
+            0.0,
+            16.0,
+            8.0
+          ]
+        },
+        "up": {
+          "texture": "#hilt",
+          "uv": [
+            8.0,
+            0.0,
+            16.0,
+            8.0
+          ]
+        },
+        "north": {
+          "texture": "#hilt",
+          "uv": [
+            8.0,
+            0.0,
+            16.0,
+            8.0
+          ]
+        },
+        "south": {
+          "texture": "#hilt",
+          "uv": [
+            8.0,
+            0.0,
+            16.0,
+            8.0
+          ]
+        },
+        "west": {
+          "texture": "#hilt",
+          "uv": [
+            8.0,
+            0.0,
+            16.0,
+            8.0
+          ]
+        },
+        "east": {
+          "texture": "#hilt",
+          "uv": [
+            8.0,
+            0.0,
+            16.0,
+            8.0
+          ]
+        }
+      },
+      "shade": true
+    },
+    {
+      "name": "crystal_ring",
+      "from": [
+        -2.25,
+        4.98,
+        -2.25
+      ],
+      "to": [
+        2.25,
+        5.27,
+        2.25
+      ],
+      "faces": {
+        "down": {
+          "texture": "#hilt",
+          "uv": [
+            8.0,
+            8.0,
+            16.0,
+            16.0
+          ]
+        },
+        "up": {
+          "texture": "#hilt",
+          "uv": [
+            8.0,
+            8.0,
+            16.0,
+            16.0
+          ]
+        },
+        "north": {
+          "texture": "#hilt",
+          "uv": [
+            8.0,
+            8.0,
+            16.0,
+            16.0
+          ]
+        },
+        "south": {
+          "texture": "#hilt",
+          "uv": [
+            8.0,
+            8.0,
+            16.0,
+            16.0
+          ]
+        },
+        "west": {
+          "texture": "#hilt",
+          "uv": [
+            8.0,
+            8.0,
+            16.0,
+            16.0
+          ]
+        },
+        "east": {
+          "texture": "#hilt",
+          "uv": [
+            8.0,
+            8.0,
+            16.0,
+            16.0
+          ]
+        }
+      },
+      "shade": true
+    },
+    {
+      "name": "silver_band_high",
+      "from": [
+        -2.1,
+        5.23,
+        -2.1
+      ],
+      "to": [
+        2.1,
+        5.72,
+        2.1
+      ],
+      "faces": {
+        "down": {
+          "texture": "#hilt",
+          "uv": [
+            8.0,
+            0.0,
+            16.0,
+            8.0
+          ]
+        },
+        "up": {
+          "texture": "#hilt",
+          "uv": [
+            8.0,
+            0.0,
+            16.0,
+            8.0
+          ]
+        },
+        "north": {
+          "texture": "#hilt",
+          "uv": [
+            8.0,
+            0.0,
+            16.0,
+            8.0
+          ]
+        },
+        "south": {
+          "texture": "#hilt",
+          "uv": [
+            8.0,
+            0.0,
+            16.0,
+            8.0
+          ]
+        },
+        "west": {
+          "texture": "#hilt",
+          "uv": [
+            8.0,
+            0.0,
+            16.0,
+            8.0
+          ]
+        },
+        "east": {
+          "texture": "#hilt",
+          "uv": [
+            8.0,
+            0.0,
+            16.0,
+            8.0
+          ]
+        }
+      },
+      "shade": true
+    },
+    {
+      "name": "silver_body",
+      "from": [
+        -2.0,
+        5.68,
+        -2.0
+      ],
+      "to": [
+        2.0,
+        6.52,
+        2.0
+      ],
+      "faces": {
+        "down": {
+          "texture": "#hilt",
+          "uv": [
+            8.0,
+            0.0,
+            16.0,
+            8.0
+          ]
+        },
+        "up": {
+          "texture": "#hilt",
+          "uv": [
+            8.0,
+            0.0,
+            16.0,
+            8.0
+          ]
+        },
+        "north": {
+          "texture": "#hilt",
+          "uv": [
+            8.0,
+            0.0,
+            16.0,
+            8.0
+          ]
+        },
+        "south": {
+          "texture": "#hilt",
+          "uv": [
+            8.0,
+            0.0,
+            16.0,
+            8.0
+          ]
+        },
+        "west": {
+          "texture": "#hilt",
+          "uv": [
+            8.0,
+            0.0,
+            16.0,
+            8.0
+          ]
+        },
+        "east": {
+          "texture": "#hilt",
+          "uv": [
+            8.0,
+            0.0,
+            16.0,
+            8.0
+          ]
+        }
+      },
+      "shade": true
+    },
+    {
+      "name": "gold_band_high",
+      "from": [
+        -2.2,
+        6.15,
+        -2.2
+      ],
+      "to": [
+        2.2,
+        6.45,
+        2.2
+      ],
+      "faces": {
+        "down": {
+          "texture": "#hilt",
+          "uv": [
+            0.0,
+            0.0,
+            8.0,
+            8.0
+          ]
+        },
+        "up": {
+          "texture": "#hilt",
+          "uv": [
+            0.0,
+            0.0,
+            8.0,
+            8.0
+          ]
+        },
+        "north": {
+          "texture": "#hilt",
+          "uv": [
+            0.0,
+            0.0,
+            8.0,
+            8.0
+          ]
+        },
+        "south": {
+          "texture": "#hilt",
+          "uv": [
+            0.0,
+            0.0,
+            8.0,
+            8.0
+          ]
+        },
+        "west": {
+          "texture": "#hilt",
+          "uv": [
+            0.0,
+            0.0,
+            8.0,
+            8.0
+          ]
+        },
+        "east": {
+          "texture": "#hilt",
+          "uv": [
+            0.0,
+            0.0,
+            8.0,
+            8.0
+          ]
+        }
+      },
+      "shade": true
+    },
+    {
+      "name": "emitter_base",
+      "from": [
+        -2.4,
+        6.48,
+        -2.4
+      ],
+      "to": [
+        2.4,
+        7.22,
+        2.4
+      ],
+      "faces": {
+        "down": {
+          "texture": "#hilt",
+          "uv": [
+            0.0,
+            0.0,
+            8.0,
+            8.0
+          ]
+        },
+        "up": {
+          "texture": "#hilt",
+          "uv": [
+            0.0,
+            0.0,
+            8.0,
+            8.0
+          ]
+        },
+        "north": {
+          "texture": "#hilt",
+          "uv": [
+            0.0,
+            0.0,
+            8.0,
+            8.0
+          ]
+        },
+        "south": {
+          "texture": "#hilt",
+          "uv": [
+            0.0,
+            0.0,
+            8.0,
+            8.0
+          ]
+        },
+        "west": {
+          "texture": "#hilt",
+          "uv": [
+            0.0,
+            0.0,
+            8.0,
+            8.0
+          ]
+        },
+        "east": {
+          "texture": "#hilt",
+          "uv": [
+            0.0,
+            0.0,
+            8.0,
+            8.0
+          ]
+        }
+      },
+      "shade": true
+    },
+    {
+      "name": "emitter_collar",
+      "from": [
+        -2.0,
+        7.18,
+        -2.0
+      ],
+      "to": [
+        2.0,
+        7.52,
+        2.0
+      ],
+      "faces": {
+        "down": {
+          "texture": "#hilt",
+          "uv": [
+            8.0,
+            0.0,
+            16.0,
+            8.0
+          ]
+        },
+        "up": {
+          "texture": "#hilt",
+          "uv": [
+            8.0,
+            0.0,
+            16.0,
+            8.0
+          ]
+        },
+        "north": {
+          "texture": "#hilt",
+          "uv": [
+            8.0,
+            0.0,
+            16.0,
+            8.0
+          ]
+        },
+        "south": {
+          "texture": "#hilt",
+          "uv": [
+            8.0,
+            0.0,
+            16.0,
+            8.0
+          ]
+        },
+        "west": {
+          "texture": "#hilt",
+          "uv": [
+            8.0,
+            0.0,
+            16.0,
+            8.0
+          ]
+        },
+        "east": {
+          "texture": "#hilt",
+          "uv": [
+            8.0,
+            0.0,
+            16.0,
+            8.0
+          ]
+        }
+      },
+      "shade": true
+    },
+    {
+      "name": "emitter_core",
+      "from": [
+        -1.55,
+        7.48,
+        -1.55
+      ],
+      "to": [
+        1.55,
+        7.87,
+        1.55
+      ],
+      "faces": {
+        "down": {
+          "texture": "#hilt",
+          "uv": [
+            8.0,
+            8.0,
+            16.0,
+            16.0
+          ]
+        },
+        "up": {
+          "texture": "#hilt",
+          "uv": [
+            8.0,
+            8.0,
+            16.0,
+            16.0
+          ]
+        },
+        "north": {
+          "texture": "#hilt",
+          "uv": [
+            8.0,
+            8.0,
+            16.0,
+            16.0
+          ]
+        },
+        "south": {
+          "texture": "#hilt",
+          "uv": [
+            8.0,
+            8.0,
+            16.0,
+            16.0
+          ]
+        },
+        "west": {
+          "texture": "#hilt",
+          "uv": [
+            8.0,
+            8.0,
+            16.0,
+            16.0
+          ]
+        },
+        "east": {
+          "texture": "#hilt",
+          "uv": [
+            8.0,
+            8.0,
+            16.0,
+            16.0
+          ]
+        }
+      },
+      "shade": true
+    },
+    {
+      "name": "claw_w",
+      "from": [
+        -2.95,
+        6.85,
+        -1.35
+      ],
+      "to": [
+        -2.38,
+        8.05,
+        1.35
+      ],
+      "faces": {
+        "down": {
+          "texture": "#hilt",
+          "uv": [
+            0.0,
+            0.0,
+            8.0,
+            8.0
+          ]
+        },
+        "up": {
+          "texture": "#hilt",
+          "uv": [
+            0.0,
+            0.0,
+            8.0,
+            8.0
+          ]
+        },
+        "north": {
+          "texture": "#hilt",
+          "uv": [
+            0.0,
+            0.0,
+            8.0,
+            8.0
+          ]
+        },
+        "south": {
+          "texture": "#hilt",
+          "uv": [
+            0.0,
+            0.0,
+            8.0,
+            8.0
+          ]
+        },
+        "west": {
+          "texture": "#hilt",
+          "uv": [
+            0.0,
+            0.0,
+            8.0,
+            8.0
+          ]
+        },
+        "east": {
+          "texture": "#hilt",
+          "uv": [
+            0.0,
+            0.0,
+            8.0,
+            8.0
+          ]
+        }
+      },
+      "shade": true
+    },
+    {
+      "name": "claw_e",
+      "from": [
+        2.38,
+        6.85,
+        -1.35
+      ],
+      "to": [
+        2.95,
+        8.05,
+        1.35
+      ],
+      "faces": {
+        "down": {
+          "texture": "#hilt",
+          "uv": [
+            0.0,
+            0.0,
+            8.0,
+            8.0
+          ]
+        },
+        "up": {
+          "texture": "#hilt",
+          "uv": [
+            0.0,
+            0.0,
+            8.0,
+            8.0
+          ]
+        },
+        "north": {
+          "texture": "#hilt",
+          "uv": [
+            0.0,
+            0.0,
+            8.0,
+            8.0
+          ]
+        },
+        "south": {
+          "texture": "#hilt",
+          "uv": [
+            0.0,
+            0.0,
+            8.0,
+            8.0
+          ]
+        },
+        "west": {
+          "texture": "#hilt",
+          "uv": [
+            0.0,
+            0.0,
+            8.0,
+            8.0
+          ]
+        },
+        "east": {
+          "texture": "#hilt",
+          "uv": [
+            0.0,
+            0.0,
+            8.0,
+            8.0
+          ]
+        }
+      },
+      "shade": true
+    },
+    {
+      "name": "claw_n",
+      "from": [
+        -1.35,
+        6.85,
+        2.38
+      ],
+      "to": [
+        1.35,
+        8.05,
+        2.95
+      ],
+      "faces": {
+        "down": {
+          "texture": "#hilt",
+          "uv": [
+            0.0,
+            0.0,
+            8.0,
+            8.0
+          ]
+        },
+        "up": {
+          "texture": "#hilt",
+          "uv": [
+            0.0,
+            0.0,
+            8.0,
+            8.0
+          ]
+        },
+        "north": {
+          "texture": "#hilt",
+          "uv": [
+            0.0,
+            0.0,
+            8.0,
+            8.0
+          ]
+        },
+        "south": {
+          "texture": "#hilt",
+          "uv": [
+            0.0,
+            0.0,
+            8.0,
+            8.0
+          ]
+        },
+        "west": {
+          "texture": "#hilt",
+          "uv": [
+            0.0,
+            0.0,
+            8.0,
+            8.0
+          ]
+        },
+        "east": {
+          "texture": "#hilt",
+          "uv": [
+            0.0,
+            0.0,
+            8.0,
+            8.0
+          ]
+        }
+      },
+      "shade": true
+    },
+    {
+      "name": "claw_s",
+      "from": [
+        -1.35,
+        6.85,
+        -2.95
+      ],
+      "to": [
+        1.35,
+        8.05,
+        -2.38
+      ],
+      "faces": {
+        "down": {
+          "texture": "#hilt",
+          "uv": [
+            0.0,
+            0.0,
+            8.0,
+            8.0
+          ]
+        },
+        "up": {
+          "texture": "#hilt",
+          "uv": [
+            0.0,
+            0.0,
+            8.0,
+            8.0
+          ]
+        },
+        "north": {
+          "texture": "#hilt",
+          "uv": [
+            0.0,
+            0.0,
+            8.0,
+            8.0
+          ]
+        },
+        "south": {
+          "texture": "#hilt",
+          "uv": [
+            0.0,
+            0.0,
+            8.0,
+            8.0
+          ]
+        },
+        "west": {
+          "texture": "#hilt",
+          "uv": [
+            0.0,
+            0.0,
+            8.0,
+            8.0
+          ]
+        },
+        "east": {
+          "texture": "#hilt",
+          "uv": [
+            0.0,
+            0.0,
+            8.0,
+            8.0
+          ]
+        }
+      },
+      "shade": true
+    },
+    {
+      "name": "blade_core",
+      "from": [
+        -0.9,
+        7.25,
+        -0.9
+      ],
+      "to": [
+        0.9,
+        23.8,
+        0.9
+      ],
+      "faces": {
+        "down": {
+          "texture": "#blade",
+          "uv": [
+            0.0,
+            0.0,
+            16.0,
+            16.0
+          ]
+        },
+        "up": {
+          "texture": "#blade",
+          "uv": [
+            0.0,
+            0.0,
+            16.0,
+            16.0
+          ]
+        },
+        "north": {
+          "texture": "#blade",
+          "uv": [
+            0.0,
+            0.0,
+            16.0,
+            16.0
+          ]
+        },
+        "south": {
+          "texture": "#blade",
+          "uv": [
+            0.0,
+            0.0,
+            16.0,
+            16.0
+          ]
+        },
+        "west": {
+          "texture": "#blade",
+          "uv": [
+            0.0,
+            0.0,
+            16.0,
+            16.0
+          ]
+        },
+        "east": {
+          "texture": "#blade",
+          "uv": [
+            0.0,
+            0.0,
+            16.0,
+            16.0
+          ]
+        }
+      },
+      "shade": false
+    },
+    {
+      "name": "blade_tip_1",
+      "from": [
+        -0.64,
+        23.8,
+        -0.64
+      ],
+      "to": [
+        0.64,
+        24.3,
+        0.64
+      ],
+      "faces": {
+        "down": {
+          "texture": "#blade",
+          "uv": [
+            0.0,
+            0.0,
+            16.0,
+            16.0
+          ]
+        },
+        "up": {
+          "texture": "#blade",
+          "uv": [
+            0.0,
+            0.0,
+            16.0,
+            16.0
+          ]
+        },
+        "north": {
+          "texture": "#blade",
+          "uv": [
+            0.0,
+            0.0,
+            16.0,
+            16.0
+          ]
+        },
+        "south": {
+          "texture": "#blade",
+          "uv": [
+            0.0,
+            0.0,
+            16.0,
+            16.0
+          ]
+        },
+        "west": {
+          "texture": "#blade",
+          "uv": [
+            0.0,
+            0.0,
+            16.0,
+            16.0
+          ]
+        },
+        "east": {
+          "texture": "#blade",
+          "uv": [
+            0.0,
+            0.0,
+            16.0,
+            16.0
+          ]
+        }
+      },
+      "shade": false
+    },
+    {
+      "name": "blade_tip_2",
+      "from": [
+        -0.34,
+        24.3,
+        -0.34
+      ],
+      "to": [
+        0.34,
+        24.56,
+        0.34
+      ],
+      "faces": {
+        "down": {
+          "texture": "#blade",
+          "uv": [
+            0.0,
+            0.0,
+            16.0,
+            16.0
+          ]
+        },
+        "up": {
+          "texture": "#blade",
+          "uv": [
+            0.0,
+            0.0,
+            16.0,
+            16.0
+          ]
+        },
+        "north": {
+          "texture": "#blade",
+          "uv": [
+            0.0,
+            0.0,
+            16.0,
+            16.0
+          ]
+        },
+        "south": {
+          "texture": "#blade",
+          "uv": [
+            0.0,
+            0.0,
+            16.0,
+            16.0
+          ]
+        },
+        "west": {
+          "texture": "#blade",
+          "uv": [
+            0.0,
+            0.0,
+            16.0,
+            16.0
+          ]
+        },
+        "east": {
+          "texture": "#blade",
+          "uv": [
+            0.0,
+            0.0,
+            16.0,
+            16.0
+          ]
+        }
+      },
+      "shade": false
+    },
+    {
+      "name": "blade_glow",
+      "from": [
+        -2.1,
+        7.7,
+        -2.1
+      ],
+      "to": [
+        2.1,
+        24.0,
+        2.1
+      ],
+      "faces": {
+        "down": {
+          "texture": "#glow",
+          "uv": [
+            0.0,
+            0.0,
+            16.0,
+            16.0
+          ]
+        },
+        "up": {
+          "texture": "#glow",
+          "uv": [
+            0.0,
+            0.0,
+            16.0,
+            16.0
+          ]
+        },
+        "north": {
+          "texture": "#glow",
+          "uv": [
+            0.0,
+            0.0,
+            16.0,
+            16.0
+          ]
+        },
+        "south": {
+          "texture": "#glow",
+          "uv": [
+            0.0,
+            0.0,
+            16.0,
+            16.0
+          ]
+        },
+        "west": {
+          "texture": "#glow",
+          "uv": [
+            0.0,
+            0.0,
+            16.0,
+            16.0
+          ]
+        },
+        "east": {
+          "texture": "#glow",
+          "uv": [
+            0.0,
+            0.0,
+            16.0,
+            16.0
+          ]
+        }
+      },
+      "shade": false
+    },
+    {
+      "name": "blade_glow_tip",
+      "from": [
+        -1.2,
+        24.0,
+        -1.2
+      ],
+      "to": [
+        1.2,
+        24.35,
+        1.2
+      ],
+      "faces": {
+        "down": {
+          "texture": "#glow",
+          "uv": [
+            0.0,
+            0.0,
+            16.0,
+            16.0
+          ]
+        },
+        "up": {
+          "texture": "#glow",
+          "uv": [
+            0.0,
+            0.0,
+            16.0,
+            16.0
+          ]
+        },
+        "north": {
+          "texture": "#glow",
+          "uv": [
+            0.0,
+            0.0,
+            16.0,
+            16.0
+          ]
+        },
+        "south": {
+          "texture": "#glow",
+          "uv": [
+            0.0,
+            0.0,
+            16.0,
+            16.0
+          ]
+        },
+        "west": {
+          "texture": "#glow",
+          "uv": [
+            0.0,
+            0.0,
+            16.0,
+            16.0
+          ]
+        },
+        "east": {
+          "texture": "#glow",
+          "uv": [
+            0.0,
+            0.0,
+            16.0,
+            16.0
+          ]
+        }
+      },
+      "shade": false
+    },
+    {
+      "name": "blade_aura",
+      "from": [
+        -3.1,
+        7.9,
+        -3.1
+      ],
+      "to": [
+        3.1,
+        23.9,
+        3.1
+      ],
+      "faces": {
+        "down": {
+          "texture": "#aura",
+          "uv": [
+            0.0,
+            0.0,
+            16.0,
+            16.0
+          ]
+        },
+        "up": {
+          "texture": "#aura",
+          "uv": [
+            0.0,
+            0.0,
+            16.0,
+            16.0
+          ]
+        },
+        "north": {
+          "texture": "#aura",
+          "uv": [
+            0.0,
+            0.0,
+            16.0,
+            16.0
+          ]
+        },
+        "south": {
+          "texture": "#aura",
+          "uv": [
+            0.0,
+            0.0,
+            16.0,
+            16.0
+          ]
+        },
+        "west": {
+          "texture": "#aura",
+          "uv": [
+            0.0,
+            0.0,
+            16.0,
+            16.0
+          ]
+        },
+        "east": {
+          "texture": "#aura",
+          "uv": [
+            0.0,
+            0.0,
+            16.0,
+            16.0
+          ]
+        }
+      },
+      "shade": false
+    },
+    {
+      "name": "blade_aura_tip",
+      "from": [
+        -1.7,
+        23.9,
+        -1.7
+      ],
+      "to": [
+        1.7,
+        24.2,
+        1.7
+      ],
+      "faces": {
+        "down": {
+          "texture": "#aura",
+          "uv": [
+            0.0,
+            0.0,
+            16.0,
+            16.0
+          ]
+        },
+        "up": {
+          "texture": "#aura",
+          "uv": [
+            0.0,
+            0.0,
+            16.0,
+            16.0
+          ]
+        },
+        "north": {
+          "texture": "#aura",
+          "uv": [
+            0.0,
+            0.0,
+            16.0,
+            16.0
+          ]
+        },
+        "south": {
+          "texture": "#aura",
+          "uv": [
+            0.0,
+            0.0,
+            16.0,
+            16.0
+          ]
+        },
+        "west": {
+          "texture": "#aura",
+          "uv": [
+            0.0,
+            0.0,
+            16.0,
+            16.0
+          ]
+        },
+        "east": {
+          "texture": "#aura",
+          "uv": [
+            0.0,
+            0.0,
+            16.0,
+            16.0
+          ]
+        }
+      },
+      "shade": false
+    }
+  ],
+  "display": {
+    "gui": {
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "translation": [
+        8.0,
+        -0.1048,
+        0.0
+      ],
+      "scale": [
+        0.66,
+        0.66,
+        0.66
+      ]
+    },
+    "ground": {
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "translation": [
+        0,
+        2,
+        0
+      ],
+      "scale": [
+        0.5,
+        0.5,
+        0.5
+      ]
+    },
+    "fixed": {
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.5,
+        0.5,
+        0.5
+      ]
+    },
+    "head": {
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.35,
+        0.35,
+        0.35
+      ]
+    },
+    "thirdperson_righthand": {
+      "rotation": [
+        0,
+        -90,
+        55
+      ],
+      "translation": [
+        0,
+        4,
+        0.8
+      ],
+      "scale": [
+        0.8,
+        0.8,
+        0.8
+      ]
+    },
+    "thirdperson_lefthand": {
+      "rotation": [
+        0,
+        90,
+        -55
+      ],
+      "translation": [
+        0,
+        4,
+        0.8
+      ],
+      "scale": [
+        0.8,
+        0.8,
+        0.8
+      ]
+    },
+    "firstperson_righthand": {
+      "rotation": [
+        0,
+        -90,
+        22
+      ],
+      "translation": [
+        1.0,
+        3.0,
+        0.8
+      ],
+      "scale": [
+        0.62,
+        0.62,
+        0.62
+      ]
+    },
+    "firstperson_lefthand": {
+      "rotation": [
+        0,
+        90,
+        -22
+      ],
+      "translation": [
+        1.0,
+        3.0,
+        0.8
+      ],
+      "scale": [
+        0.62,
+        0.62,
+        0.62
+      ]
+    }
+  }
+}
